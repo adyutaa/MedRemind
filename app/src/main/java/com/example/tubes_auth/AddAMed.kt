@@ -93,6 +93,7 @@ class AddAMed : AppCompatActivity(){
         ) {
             // All conditions met, navigate to next page
             // Add your code to navigate to the next activity here
+            //ini blm intent ke next page
             Toast.makeText(this, "Navigating to the next page...", Toast.LENGTH_SHORT).show()
         } else {
             Toast.makeText(this, "Please fill all the information!", Toast.LENGTH_SHORT).show()
